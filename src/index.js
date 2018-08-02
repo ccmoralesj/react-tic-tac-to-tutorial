@@ -122,7 +122,7 @@ class Game extends React.Component {
 }
 
 function calculateWinner(rows) {
-  const lines = [
+  /*const lines = [
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
@@ -143,7 +143,7 @@ function calculateWinner(rows) {
     [3,1],
     [3,2],
     [3,3]
-  ];
+  ];*/
   /*for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
     if (rows[a] && rows[a] === rows[b] && rows[a] === rows[c]) {
